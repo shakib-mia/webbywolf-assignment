@@ -8,6 +8,8 @@ import Banner from "./components/Banner/Banner";
 import Partners from "./components/Partners/Partners";
 import Articles from "./components/Articles/Articles";
 import Banner2 from "./components/Banner2/Banner2";
+import Contact from "./components/Contact/Contact";
+import DownloadAppCTA from "./components/DownloadAppCTA/DownloadAppCTA";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <Partners />
       <Articles />
       <Banner2 />
+      <Contact />
+      <DownloadAppCTA />
     </>
   );
 }
