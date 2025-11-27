@@ -5,6 +5,9 @@ import Bikes from "./components/Bikes/Bikes";
 import bg1 from "./assets/bg1.png";
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
+import Partners from "./components/Partners/Partners";
+import Articles from "./components/Articles/Articles";
+import Banner2 from "./components/Banner2/Banner2";
 
 export default function Home() {
   return (
@@ -20,6 +23,9 @@ export default function Home() {
       </div>
 
       <Banner />
+      <Partners />
+      <Articles />
+      <Banner2 />
     </>
   );
 }
