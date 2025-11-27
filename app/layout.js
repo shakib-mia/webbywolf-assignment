@@ -1,14 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
+import Animation from "./components/Animation/Animation";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const robotCondensed = Roboto_Condensed({
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-roboto-condensed",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-inter",
 });
 
 export const metadata = {
@@ -20,8 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${robotCondensed.variable} ${inter.variable} antialiased`}
       >
+        <Animation />
         {children}
       </body>
     </html>
