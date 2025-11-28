@@ -204,7 +204,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className="bg-[#155ADA] text-white">
+    <section className="bg-[#155ADA] text-white" id="testimonials">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container items-center gap-4">
         <aside className="lg:col-span-2">
           <h4 data-animate="fade-in-left">Lorem ipsum dolor sit</h4>

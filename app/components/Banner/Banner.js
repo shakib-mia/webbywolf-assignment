@@ -45,7 +45,7 @@ const Banner = () => {
 
             <Button
               className="bg-white! text-black! shadow-lg active:shadow-none border-none hover:bg-primary! hover:text-white! mt-7"
-              href="https://templatehearth.vercel.app/contact"
+              href="#"
               target="_blank"
               data-animate="fade-in-up"
             >

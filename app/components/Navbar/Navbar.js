@@ -105,7 +105,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Button
             className="hidden! md:block! bg-white! text-black! shadow-lg active:shadow-none border-none hover:bg-primary! hover:text-white!"
-            href="https://templatehearth.vercel.app/contact"
+            href="#"
             target="_blank"
           >
             Get Started
@@ -188,7 +188,7 @@ const Navbar = () => {
 
             <li className="container py-3">
               <Button
-                href="https://templatehearth.vercel.app/contact"
+                href="#"
                 target="_blank"
                 className="inline-block w-full text-center border-0"
               >

@@ -17,6 +17,9 @@ import Showcase from "./components/Showcase/Showcase";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Confidential from "./components/Confidential/Confidential";
 import BikeExchange from "./components/BikeExchange/BikeExchange";
+import Events from "./components/Events/Events";
+import FAQs from "./components/FAQs/FAQs";
+import CTA from "./components/CTA/CTA";
 
 export default function Home() {
   return (
@@ -47,6 +50,9 @@ export default function Home() {
       <Testimonials />
       <Confidential />
       <BikeExchange />
+      <Events />
+      <FAQs />
+      <CTA />
     </>
   );
 }
