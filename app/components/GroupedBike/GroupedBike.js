@@ -7,6 +7,8 @@ import bike4 from "../../assets/grouped-bike/bike-4.jpg";
 import bike5 from "../../assets/grouped-bike/bike-5.jpg";
 
 import Image from "next/image";
+import Button from "../Button/Button";
+import { FaArrowRight } from "react-icons/fa6";
 
 const GroupedBike = () => {
   return (
@@ -33,6 +35,10 @@ const GroupedBike = () => {
                 eget integer in nam. Non nisl iaculis at felis aliquet.
                 Hendrerit tellus at purus lectus.
               </p>
+
+              <Button className="mt-4 inline-flex! gap-2 items-center" href="#">
+                Learn More <FaArrowRight />
+              </Button>
             </div>
           </aside>
 

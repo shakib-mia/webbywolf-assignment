@@ -15,6 +15,7 @@ import DownloadAppCTA from "./components/DownloadAppCTA/DownloadAppCTA";
 import GroupedBike from "./components/GroupedBike/GroupedBike";
 import Showcase from "./components/Showcase/Showcase";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Confidential from "./components/Confidential/Confidential";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <Showcase />
       </div>
       <Testimonials />
+      <Confidential />
     </>
   );
 }
