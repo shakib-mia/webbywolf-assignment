@@ -20,6 +20,7 @@ import BikeExchange from "./components/BikeExchange/BikeExchange";
 import Events from "./components/Events/Events";
 import FAQs from "./components/FAQs/FAQs";
 import CTA from "./components/CTA/CTA";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -53,6 +54,7 @@ export default function Home() {
       <Events />
       <FAQs />
       <CTA />
+      <Footer />
     </>
   );
 }

@@ -73,7 +73,8 @@ h4 {
   }
 }
 
-section {
+section,
+footer {
   @apply py-8 md:py-12 lg:py-16;
 }
 
