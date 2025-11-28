@@ -71,5 +71,5 @@ export default function useHearthMotion() {
 
   useEffect(() => {
     loadAnimateCSS().then(initHearthMotion).catch(console.error);
-  }, [pathname]); // 👈 pathname change হলে আবার চালাবে
+  }, [pathname]);
 }
