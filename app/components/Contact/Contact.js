@@ -56,8 +56,8 @@ const Contact = () => {
         REQUEST A QUOTE
       </h2>
 
-      <form className="p-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-9 mb-9">
+      <form className="lg:p-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-5 gap-y-4 lg:gap-y-9 mb-9">
           {inputFields.map((field, key) => (
             <InputField {...field} order={key} key={key} />
           ))}

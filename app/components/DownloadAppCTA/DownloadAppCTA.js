@@ -35,6 +35,7 @@ const DownloadAppCTA = () => {
           </aside>
           <aside
             className="bg-contain bg-no-repeat bg-center"
+            data-animate="fade-in-up"
             style={{ backgroundImage: `url(${screen.src})` }}
           ></aside>
         </div>

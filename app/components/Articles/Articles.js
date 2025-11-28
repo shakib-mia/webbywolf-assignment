@@ -53,7 +53,7 @@ const Articles = () => {
         >
           Lorem ipsum dolor sit amet
         </h2>
-        <p className="w-7/12" data-animate="fade-in-left">
+        <p className="lg:w-7/12" data-animate="fade-in-left">
           Lorem ipsum dolor sit amet consectetur. Amet sodales sociis facilisis
           donec dui. Mi porttitor ut aliquam mattis maecenas eget integer in
           nam. Non nisl iaculis at felis aliquet. Hendrerit tellus at purus
@@ -80,9 +80,9 @@ const Articles = () => {
                     : ""
                 }`}
               />
-              <div className="p-4 pt-7">
-                <h3 className="mt-6">{title}</h3>
-                <p className="mt-4">{description}</p>
+              <div className="p-4 lg:pt-7">
+                <h3 className="lg:mt-6">{title}</h3>
+                <p className="mt-2 lg:mt-4">{description}</p>
 
                 <Link
                   href="#"

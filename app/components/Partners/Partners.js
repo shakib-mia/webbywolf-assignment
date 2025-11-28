@@ -60,7 +60,7 @@ const Partners = () => {
         Lorem ipsum dolor sit amet consectetur. Commodo leo amet.
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-12 mt-8 md:mt-12 lg:mt-16 items-center">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 gap-y-12 mt-8 md:mt-12 lg:mt-16 items-center">
         {partnerImages.map((image, index) => {
           const delay = (index % cols) * 100; // 120ms stagger
 
