@@ -10,6 +10,7 @@ import Articles from "./components/Articles/Articles";
 import Banner2 from "./components/Banner2/Banner2";
 import Contact from "./components/Contact/Contact";
 import DownloadAppCTA from "./components/DownloadAppCTA/DownloadAppCTA";
+import GroupedBike from "./components/GroupedBike/GroupedBike";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Banner2 />
       <Contact />
       <DownloadAppCTA />
+      <GroupedBike />
     </>
   );
 }

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const DownloadAppCTA = () => {
   return (
-    <section className="bg-[#F3F3F3] py-0!">
+    <section className="bg-[#F3F3F3] py-0! overflow-hidden">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <aside className="py-8 md:py-12 lg:py-16">
