@@ -11,6 +11,7 @@ import Banner2 from "./components/Banner2/Banner2";
 import Contact from "./components/Contact/Contact";
 import DownloadAppCTA from "./components/DownloadAppCTA/DownloadAppCTA";
 import GroupedBike from "./components/GroupedBike/GroupedBike";
+import Showcase from "./components/Showcase/Showcase";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <Contact />
       <DownloadAppCTA />
       <GroupedBike />
+      <Showcase />
     </>
   );
 }

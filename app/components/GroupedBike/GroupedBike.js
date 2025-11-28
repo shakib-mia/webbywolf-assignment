@@ -48,7 +48,7 @@ const GroupedBike = () => {
               src={bike2}
               className="col-span-2 w-full h-full object-cover"
               alt="bike3"
-              width={100}
+              width={400}
               data-animate="fade-in-right"
               data-delay="100"
             />
