@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   images: {
-    domains: ["randomuser.me"], // ekhane external image domain add koro
-  },
-  remotePatterns: {
-    images: [
+    domains: ["randomuser.me"], // optional if using remotePatterns
+    remotePatterns: [
       {
         protocol: "https",
         hostname: "randomuser.me",
