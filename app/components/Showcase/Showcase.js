@@ -7,7 +7,7 @@ import Image from "next/image";
 const Showcase = () => {
   return (
     <section className="bg-[#F8F8F8] relative">
-      <div className="w-full h-3 lg:h-5 bg-linear-to-r from-[#043898] via-[#079902] to-[#170041] absolute top-full left-0 right-0 container mx-auto"></div>
+      <div className="w-full h-3 lg:h-5 bg-linear-to-r from-[#043898] via-[#079902] to-[#170041] absolute -bottom-1.5 mx-4 lg:-bottom-2.5 left-0 right-0 container lg:mx-auto"></div>
       <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-10">
         <aside className="order-2 lg:order-1">
           <Image

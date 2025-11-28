@@ -40,7 +40,7 @@ const Articles = () => {
   ];
   return (
     <section
-      className="bg-cover bg-no-repeat"
+      className="bg-size-[100%] bg-top bg-no-repeat"
       style={{ backgroundImage: `url(${bg.src})` }}
     >
       <div className="container">

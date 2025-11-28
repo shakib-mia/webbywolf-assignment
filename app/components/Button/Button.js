@@ -8,7 +8,7 @@ const Button = (props) => {
     <>
       {props.href ? (
         <Link
-          className={`inline-block bg-primary text-white px-4 py-2 rounded-md hover:bg-white border-2 border-primary hover:text-primary transition cursor-pointer font-gilroy-medium ${className}`}
+          className={`inline-block font-bold bg-primary text-white px-4 py-2 rounded-md hover:bg-white border-2 border-primary hover:text-primary transition cursor-pointer font-gilroy-medium ${className}`}
           {...rest}
         >
           {children}
@@ -16,7 +16,7 @@ const Button = (props) => {
       ) : (
         <>
           <button
-            className={`inline-block bg-primary text-white px-4 py-2 rounded-md hover:bg-white border-2 border-primary hover:text-primary transition cursor-pointer font-gilroy-medium ${className}`}
+            className={`inline-block font-bold bg-primary text-white px-4 py-2 rounded-md hover:bg-white border-2 border-primary hover:text-primary transition cursor-pointer font-gilroy-medium ${className}`}
             {...rest}
           >
             {children}
