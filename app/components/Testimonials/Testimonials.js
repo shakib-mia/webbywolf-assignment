@@ -266,6 +266,7 @@ const Testimonials = () => {
                   src={testimonial.image}
                   alt={testimonial.name}
                   className="w-16 aspect-square rounded-full mr-4"
+                  unoptimized
                 />
                 <div>
                   <h5 className="font-bold">{testimonial.name}</h5>
