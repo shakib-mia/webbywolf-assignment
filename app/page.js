@@ -16,6 +16,7 @@ import GroupedBike from "./components/GroupedBike/GroupedBike";
 import Showcase from "./components/Showcase/Showcase";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Confidential from "./components/Confidential/Confidential";
+import BikeExchange from "./components/BikeExchange/BikeExchange";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
       </div>
       <Testimonials />
       <Confidential />
+      <BikeExchange />
     </>
   );
 }
